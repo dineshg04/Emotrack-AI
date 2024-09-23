@@ -14,7 +14,7 @@ function Navbar() {
       <h2 className="text-xl font-medium text-black py-2">EmoTrackAI</h2>
       <div>
       <Link to="/" className='font-medium text-primary underline'>Home</Link>
-      <Link to="/aitrack" className='font-medium text-primary underline'>Product</Link>
+      <Link to="/aitrack" className='font-medium text-orange underline'>Product</Link>
       </div>
       
       <ProfileInfo onLogout={onLogout} />

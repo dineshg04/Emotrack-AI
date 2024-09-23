@@ -6,6 +6,7 @@ import AiTrack from './pages/AITrack/AiTrack';
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Dashboard from './pages/Dashboard/Dashboard';
+import Plans from './components/Landingpage/Plans';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/signup' element={<Signup />}></Route>
         <Route path='/aitrack' element={<AiTrack />}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>
+        <Route path='/plans' element={<Plans />}></Route>
       </Routes>
     </BrowserRouter>
   );

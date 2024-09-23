@@ -365,22 +365,23 @@ const AiTrack = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center mt-4">
+        <div className="flex items-center justify-center mt-4 ">
           <input
             type="text"
             value={inputText}
             onChange={handleInputChange}
-            className="w-[80%] p-3 rounded-lg bg-white/80 backdrop-blur-md border border-gray-300 outline-none focus:ring focus:ring-indigo-500"
+            className="w-[80%] p-3 rounded-lg  bg-white/80 backdrop-blur-md border border-gray-300 outline-none focus:ring focus:ring-indigo-500 "
             placeholder="Type your message..."
           />
           <button
             onClick={handleAnalyse}
-            className="ml-3 p-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
+            className="ml-3 p-3 bg-orange-500 text-white rounded-lg hover:bg-orange-400 transition"
           >
             Send
           </button>
         </div>
       </div>
+    
     </>
   );
 };

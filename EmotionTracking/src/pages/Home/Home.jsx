@@ -1,9 +1,9 @@
 import React from 'react'
-import Secondpage from '../../components/Landingpage/Secondpage'
-import Thirdpage from '../../components/Landingpage/Thirdpage'
+import Secondpage from '../../components/LandingPage/Secondpage'
+import Thirdpage from '../../components/LandingPage/Thirdpage'
 import AiTrack from '../AITrack/AiTrack'
-import Plans from '../../components/Landingpage/Plans'
-import Footer from '../../components/Landingpage/Footer'
+import Plans from '../../components/LandingPage/Plans'
+import Footer from '../../components/LandingPage/Footer'
 import FirstPage from '../../components/LandingPage/FirstPage'
 
 

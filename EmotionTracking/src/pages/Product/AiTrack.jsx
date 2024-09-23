@@ -5,6 +5,9 @@ import "./CalendarStyles.css";
 import axios from "axios";
 import EmojiSelector from "../../components/EmojiSelector/EmojiSelector";
 
+
+
+
 const AiTrack = () => {
   const [inputText, setInputText] = useState("");
   const [selectedDate, setSelectedDate] = useState(null); // Initially no date is selected
@@ -357,7 +360,7 @@ const AiTrack = () => {
               {selectedDate && (
                 <button
                   onClick={() => setSelectedDate(null)}
-                  className="mt-2 p-2 bg-gray-300 text-black rounded-lg hover:bg-gray-400 transition"
+                  className="mt-2 p-2 bg-orange-300 text-black rounded-lg hover:bg-gray-400 transition"
                 >
                   Clear Date Selection
                 </button>
@@ -381,6 +384,8 @@ const AiTrack = () => {
           </button>
         </div>
       </div>
+      
+    
     </>
   );
 };

@@ -10,23 +10,26 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-white flex items-center justify-between px-6 py-2 drop-shadow">
+    <div className="bg-white flex items-center justify-between px-6 py-2 drop-shadow-xl h-[80px]">
       
       {/* Left Section: Logo/Title */}
       <div className="flex-1">
-        <h2 className="text-xl font-medium text-black">EmoTrackAI</h2>
+        <h2 className="text-4xl font-medium text-black">EmoTrackAI</h2>
       </div>
 
       {/* Center Section: Navigation Links */}
-      <div className="flex space-x-6">
-        <Link to="/" className='font-medium text-primary underline hover:text-secondary transition'>
+      <div className="flex space-x-28 ">
+        <Link to="/" className='font-bold text-2xl text-orange-500  hover:text-secondary transition'>
           Home
         </Link>
-        <Link to="/aitrack" className='font-medium text-primary underline hover:text-secondary transition'>
+        <Link to="/aitrack" className='font-bold text-2xl text-orange-500  hover:text-secondary transition hover:underline'>
           Product
         </Link>
-        <Link to="/dashboard" className='font-medium text-primary underline hover:text-secondary transition'>
+        <Link to="/dashboard" className='font-bold text-2xl text-orange-500  hover:text-secondary transition hover:underline'>
           Dashboard
+        </Link>
+        <Link to="/plans" className='font-bold text-2xl text-orange-500 hover:text-secondary transition hover:underline'>
+          Plans
         </Link>
       </div>
 
